@@ -369,7 +369,16 @@ Hero
 
 .hero {
   background: var(--clr-grey-10);
-  clip-path: polygon(50% 0%, 100% 18%, 82% 100%, 18% 100%, 1% 18%);
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
 }
 
 .hero-center {
@@ -697,6 +706,130 @@ Connect
   place-items: center;
   text-align: center;
 }
+
+/* contact form */
+
+.contact {
+  background: var(--clr-grey-5);
+  height: 100%;
+  padding-bottom: 1rem;
+}
+
+.contact-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.contact-header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.contact-header span {
+  color: rgb(211, 21, 21);
+  text-transform: uppercase;
+}
+
+/* .contact-form,
+.contact-info {
+  margin: 1rem 0;
+} */
+
+.contact-item {
+  margin-bottom: 1.75rem;
+}
+
+.contact-title {
+  color: var(--clr-primary-5);
+  font-weight: 400;
+}
+
+.contact-text {
+  text-transform: capitalize;
+}
+
+.contact-form {
+  background: var(--clr-grey-10);
+  border-radius: var(--radius);
+  text-align: center;
+  filter: drop-shadow(0 3px 3px gray);
+  transition: var(--transition);
+  max-width: 35rem;
+}
+
+.contact-form:hover {
+  filter: drop-shadow(0 3px 3px black);
+}
+
+.contact-form h3 {
+  padding-top: 1.25rem;
+  color: var(--clr-grey-5);
+}
+
+.form-group {
+  padding: 1rem 1.5rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  background: var(--clr-grey-6);
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: var(--radius);
+  letter-spacing: var(--spacing);
+}
+
+.form-control::placeholder {
+  color: white;
+  font-size: 1rem;
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: white;
+}
+
+
+@media screen and (min-width: 996px) {
+  .contact-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 3.5rem;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+  .contact-text {
+    font-size: 1.5rem;
+  }
+  .contact-title,
+  .contact-text {
+    font-size: 1.5rem;
+  }
+
+  .contact{
+    height: 100%;
+  }
+}
+
+/* end of contact form */
+
 /*
 =============== 
 Skills
