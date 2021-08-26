@@ -731,10 +731,10 @@ Connect
   text-transform: uppercase;
 }
 
-/* .contact-form,
+.contact-form,
 .contact-info {
-  margin: 1rem 0;
-} */
+  margin: 2rem 0;
+}
 
 .contact-item {
   margin-bottom: 1.75rem;
