@@ -20,4 +20,3 @@ closeBtn.addEventListener("click", function () {
 });
 // set year
 date.innerHTML = new Date().getFullYear();
-  

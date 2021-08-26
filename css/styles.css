@@ -749,6 +749,11 @@ Connect
   text-transform: capitalize;
 }
 
+.contact-text span{
+  color: var(--clr-grey-6);
+  font-size: 1rem;
+}
+
 .contact-form {
   background: var(--clr-grey-10);
   border-radius: var(--radius);
@@ -815,12 +820,13 @@ Connect
     margin: 0 auto;
     max-width: 1170px;
   }
-  .contact-text {
-    font-size: 1.5rem;
+  
+  .contact-text{
+    font-size: 1.3rem;
   }
-  .contact-title,
-  .contact-text {
-    font-size: 1.5rem;
+
+  .contact-title{
+    font-size: 1rem;
   }
 
   .contact{
