@@ -246,6 +246,7 @@ nav {
     font-weight: bold;
     letter-spacing: var(--spacing);
     transition: var(--transition);
+    filter: drop-shadow(0 3px 3px grey);
   }
 
   .nav-links a:hover {
@@ -389,6 +390,7 @@ Hero
 
 .hero-info h4 {
   color: var(--clr-grey-5);
+  filter: drop-shadow(0 3px 3px lightblue);
 }
 
 .hero-icons {
@@ -749,7 +751,7 @@ Connect
   text-transform: capitalize;
 }
 
-.contact-text span{
+.contact-text span {
   color: var(--clr-grey-6);
   font-size: 1rem;
 }
@@ -809,7 +811,6 @@ Connect
   background: white;
 }
 
-
 @media screen and (min-width: 996px) {
   .contact-center {
     display: grid;
@@ -820,16 +821,16 @@ Connect
     margin: 0 auto;
     max-width: 1170px;
   }
-  
-  .contact-text{
+
+  .contact-text {
     font-size: 1.3rem;
   }
 
-  .contact-title{
+  .contact-title {
     font-size: 1rem;
   }
 
-  .contact{
+  .contact {
     height: 100%;
   }
 }
