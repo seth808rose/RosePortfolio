@@ -721,7 +721,6 @@ Connect
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
-  height: 70vh;
 }
 
 .contact-header {
@@ -821,6 +820,7 @@ Connect
     width: 90vw;
     margin: 0 auto;
     max-width: 1170px;
+    height: 70vh;
   }
 
   .contact-text {
