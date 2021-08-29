@@ -1,9 +1,9 @@
-const navbar = document.querySelector("#nav");
-const navBtn = document.querySelector("#nav-btn");
-const closeBtn = document.querySelector("#close-btn");
-const sidebar = document.querySelector("#sidebar");
-const date = document.querySelector("#date");
-// add fixed class to navbar
+const navbar = document.querySelector(".nav");
+const toggleBtn = document.querySelector(".nav-btn");
+const closeBtn = document.querySelector(".close-btn");
+const sidebar = document.querySelector(".sidebar");
+
+// fixed navbar
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 80) {
     navbar.classList.add("navbar-fixed");
@@ -11,12 +11,17 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("navbar-fixed");
   }
 });
-// show sidebar
-navBtn.addEventListener("click", function () {
+
+// toggle button
+toggleBtn.addEventListener("click", function () {
   sidebar.classList.toggle("show-sidebar");
 });
+
+// close button
 closeBtn.addEventListener("click", function () {
   sidebar.classList.remove("show-sidebar");
 });
-// set year
-date.innerHTML = new Date().getFullYear();
+
+// set date
+const date = (document.getElementById("date").innerHTML =
+  new Date().getFullYear());
