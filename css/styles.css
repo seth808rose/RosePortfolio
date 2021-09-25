@@ -547,7 +547,7 @@ Projects
 
 .project {
   position: relative;
-  background: var(--clr-primary-5);
+  background: black;
   border-radius: var(--radius);
   margin-bottom: 2rem;
   filter: drop-shadow(0 3px 3px black);
@@ -562,6 +562,10 @@ Projects
   transform: translate(-50%, -50%);
   transition: var(--transition);
   opacity: 0;
+}
+
+.WIP {
+  color: red;
 }
 
 .project-info p {
@@ -581,10 +585,10 @@ Projects
 }
 
 .project:hover .project-img {
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
-.project::after {
+/* .project::after {
   content: "";
   position: absolute;
   top: 0;
@@ -595,12 +599,12 @@ Projects
   border-radius: var(--radius);
   transition: var(--transition);
   opacity: 0;
-}
+} */
 
-.project:hover::after {
+/* .project:hover::after {
   opacity: 1;
   transform: scale(0.8);
-}
+} */
 
 @media screen and (min-width: 668px) {
   .projects-center {
