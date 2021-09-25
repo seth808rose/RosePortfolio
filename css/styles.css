@@ -893,12 +893,12 @@ Skills
   left: 0;
   background: var(--clr-primary-2);
   height: 100%;
-  width: 83%;
+  width: 90%;
   border-radius: var(--radius);
 }
 
 .value-45 {
-  width: 45%;
+  width: 65%;
 }
 
 .value-30 {
@@ -908,11 +908,11 @@ Skills
 .skill-text {
   position: absolute;
   top: -2rem;
-  left: 50%;
+  left: 80%;
 }
 
 .skill-text-45 {
-  left: 30%;
+  left: 40%;
 }
 
 .skill-text-30 {
