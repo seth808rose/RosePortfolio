@@ -621,10 +621,11 @@ Projects
 
 @media screen and (min-width: 1170px) {
   .projects-center {
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
     grid-template-areas:
       "a b b"
-      "a c d";
+      "a c d"
+      "e e e";
   }
   .project-2 {
     grid-area: a;
@@ -637,6 +638,9 @@ Projects
   }
   .project-4 {
     grid-area: d;
+  }
+  .project-5 {
+    grid-area: e;
   }
 
   .project {
