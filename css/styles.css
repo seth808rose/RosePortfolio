@@ -424,8 +424,8 @@ Hero
   }
 }
 .hero-photo {
-  max-width: 20rem;
-  max-height: 30rem;
+  max-width: 15rem;
+  max-height: 20rem;
   object-fit: cover;
   border-radius: var(--radius);
   position: relative;
