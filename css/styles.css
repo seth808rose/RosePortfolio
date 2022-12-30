@@ -850,11 +850,9 @@ Connect
   }
 }
 
-.btn-main-arrow{
-  margin: .5rem;
+.btn-main-arrow {
+  margin: 0.5rem;
 }
-
-
 
 /* end of contact form */
 
@@ -916,7 +914,7 @@ Skills
 }
 
 .value-30 {
-  width: 30%;
+  width: 75%;
 }
 
 .skill-text {
@@ -926,11 +924,11 @@ Skills
 }
 
 .skill-text-45 {
-  left: 40%;
+  left: 55%;
 }
 
 .skill-text-30 {
-  left: 15%;
+  left: 65%;
 }
 
 /*
